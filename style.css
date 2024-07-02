@@ -1,0 +1,41 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    margin: 40px;
+}
+.title{
+    text-align: center;
+    padding: 10px;
+    width: 80vw;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: 80px;
+}
+h2{
+    font-family: ;
+}
+.container{
+    display: flex;
+    width: 80vw;
+    height: fit-content;
+}
+.left{
+    width: 40%;
+    padding: 40px;
+    border-right: 1px solid black;
+
+}
+.right{
+    width: 60%;
+    padding: 40px;
+
+}
